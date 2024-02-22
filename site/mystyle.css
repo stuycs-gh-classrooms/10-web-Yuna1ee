@@ -44,3 +44,8 @@ h2 {
   text-decoration: wavy underline;
   font-weight: bold;
 }
+p {
+  text-align: left;
+  line-height: 20px;
+  font size: 16px;
+}

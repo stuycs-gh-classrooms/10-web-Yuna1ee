@@ -49,12 +49,12 @@ p {
   text-align: left;
   line-height: 50px;
   font-size: 20px;
-  margin: 15px;
+  margin: 20px;
 }
 img {
   float: right;
   width: 30%;
   height: 30%;
   margin: 15px;
-  border: 10px solid midnightblue;
+  border: 5px solid midnightblue;
 }

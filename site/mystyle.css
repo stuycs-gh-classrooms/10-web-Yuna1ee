@@ -16,10 +16,7 @@ nav {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-ul {
-  text-align: center;
-}
-li {
+ul li {
   padding: 10px;
   display: block;
   text-align: center;
@@ -39,6 +36,8 @@ h1 {
 ol li {
   display: block;
 }
+li {
+  display: block;
 }
 h2 {
   text-align: center;

@@ -46,6 +46,7 @@ h2 {
   text-decoration: underline;
   font-weight: bold;
   border: 5px dotted midnightblue;
+  margin: 20px;
 }
 p {
   text-align: left;

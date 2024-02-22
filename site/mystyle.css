@@ -1,13 +1,15 @@
 html {
   background-color: mediumpurple;
 }
-.page {
+.pages {
   color: purple;
   font-size: 16px;
   font-weight: normal;
   font-family: Papyrus, fantasy;
   text-align: center;
-  display: inline;
+  display: block;
+  border: solid;
+  border: 1px solid purple; 
 }
 h1 {
   color: white;

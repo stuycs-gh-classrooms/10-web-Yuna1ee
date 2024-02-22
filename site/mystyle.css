@@ -58,3 +58,14 @@ img {
   margin: 15px;
   border: 5px solid midnightblue;
 }
+.larp1 {
+  float: left;
+  width: 25%;
+}
+.larp2 {
+  width: 50%
+}
+.larp3 {
+  float: right;
+  width: 25%
+}

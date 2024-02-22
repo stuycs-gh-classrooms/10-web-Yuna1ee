@@ -7,13 +7,13 @@ html {
   font-weight: normal;
   font-family: Papyrus, fantasy;
   text-align: center;
-  display: inline;
+  display: block;
 }
 h1 {
   color: white;
   font-size: 24px;
   font-weight: normal;
-  font-family: Copperplate;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   text-align: left;
   display: block;
 }

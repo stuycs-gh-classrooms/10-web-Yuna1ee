@@ -2,15 +2,18 @@ html {
   background-color: aliceblue;
 }
 .page {
+  display: inline;
+  border: solid mediumpurple;
+  background-color: purple;
+}
+li.page {
   color: white;
   font-size: 16px;
   font-weight: normal;
   font-family: Papyrus, fantasy;
   text-align: center;
-  display: inline;
-  border: solid mediumpurple;
-  background-color: purple;
 }
+]
 .bodyart {
   display: block;
   border-radius: 20px;

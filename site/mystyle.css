@@ -10,6 +10,7 @@ html {
   display: inline;
   border: solid;
   border: 1px solid purple;
+  background-color: purple;
 }
 h1 {
   color: white;

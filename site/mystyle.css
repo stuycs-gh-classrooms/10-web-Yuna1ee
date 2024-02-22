@@ -6,20 +6,19 @@ html {
   border: solid mediumpurple;
   background-color: purple;
 }
-li.page {
+li {
   color: white;
   font-size: 16px;
   font-weight: normal;
   font-family: Papyrus, fantasy;
   text-align: center;
 }
-]
 .bodyart {
   display: block;
   border-radius: 20px;
   background-color: mediumpurple;
-  width: 90%;
-  height: 90%;
+  width: 90px;
+  height: 90px;
 }
 h1 {
   color: purple;

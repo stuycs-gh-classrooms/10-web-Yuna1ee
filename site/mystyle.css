@@ -1,0 +1,19 @@
+html {
+  background-color: mediumpurple;
+}
+.nav {
+  color: purple;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Papyrus, fantasy;
+  text-align: center;
+  display: inline;
+}
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: Copperplate;
+  text-align: left;
+  display: block;
+}

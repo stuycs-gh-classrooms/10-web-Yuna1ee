@@ -61,15 +61,18 @@ img {
 .larp1 {
   float: left;
   width: 25%;
+  border: 5px solid steelblue;
 }
 .larp2 {
   float: right;
   width: 25%
+  border: 5px solid steelblue;
 }
 .larp3 {
   width: 50%
+  border: 5px solid steelblue;
 }
 .larpimg {
-  width: 50%;
+  width: 100px;
   display: block;
 }

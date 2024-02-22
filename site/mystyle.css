@@ -4,12 +4,12 @@ html {
 .bodyart {
   width: 80%;
   margin: auto;
-  background-color: mediumpurple;
+  background-color: lightblue;
   border-radius: 20px;
 }
 nav {
   margin: auto;
-  background-color: lightblue;
+  background-color: lightsteelblue;
   font-size: 24px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -27,7 +27,7 @@ a {
 }
 h1 {
   text-align: center;
-  font-family: Copperplate;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   font-size: 24px;
   text-decoration: underline;
   font-weight: normal;

@@ -5,11 +5,11 @@ html {
   width: 80%;
   margin: auto;
   background-color: mediumpurple;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 nav {
   margin: auto;
-  background-color: purple;
+  background-color: lightblue;
   font-size: 24px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -23,12 +23,12 @@ li {
   display: inline;
 }
 a {
-  color: white;
+  color: purple;
 }
 h1 {
   text-align: center;
   font-family: Copperplate;
   font-size: 24px;
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: normal;
 }

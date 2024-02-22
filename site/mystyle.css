@@ -7,7 +7,7 @@ html {
   font-weight: normal;
   font-family: Papyrus, fantasy;
   text-align: center;
-  display: block;
+  display: inline;
 }
 h1 {
   color: white;

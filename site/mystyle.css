@@ -1,6 +1,7 @@
 html {
   background-color: aliceblue;
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-color: midnightblue;
 }
 .bodyart {
   width: 80%;
@@ -53,4 +54,6 @@ img {
   float: right;
   width: 40%;
   height: 40%;
+  margin: 20px;
+  border: 10px outset midnightblue;
 }

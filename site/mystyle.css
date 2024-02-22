@@ -17,12 +17,12 @@ nav {
 }
 ul {
   text-align: center;
-  display: inline;
 }
 li {
   padding: 10px;
   display: block;
   text-align: center;
+  display: inline;
 }
 a {
   color: steelblue;

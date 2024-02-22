@@ -1,24 +1,22 @@
 html {
   background-color: aliceblue;
 }
-.page {
-  display: inline;
-  border: solid mediumpurple;
-  background-color: purple;
-}
 li {
   color: white;
   font-size: 16px;
   font-weight: normal;
   font-family: Papyrus, fantasy;
   text-align: center;
+  display: inline;
+  border: solid mediumpurple;
+  background-color: purple;
 }
 .bodyart {
   display: block;
   border-radius: 20px;
   background-color: mediumpurple;
-  width: 90px;
-  height: 90px;
+  width: auto;
+  height: auto;
 }
 h1 {
   color: purple;

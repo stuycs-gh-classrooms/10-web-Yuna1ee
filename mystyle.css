@@ -1,37 +1,32 @@
 html {
   background-color: aliceblue;
 }
-.nav {
-  margin: auto;
-  background-color: mediumpurple;
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit;
-  display: block;
-}
-li.pages {
-  display: inline;
-}
-li a {
-  text-align: center;
-  color: white;
-  font-size: 16px;
-  font-weight: normal;
-  font-family: Papyrus, fantasy;
-  border: 0px solid mediumpurple;
-  background-color: purple;
-}
-.body {
-  border-radius: 20px;
-  background-color: mediumpurple;
+body {
   width: 80%;
   margin: auto;
-  display: block
+  background-color: mediumpurple;
+  border-radius: 15px;
+}
+nav {
+  margin: auto;
+  background-color: purple;
+  font-size: 24px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+ul {
+  padding: 0;
+  text-align: center;
+}
+a {
+  display: inline;
+  padding: 10px;
+  color: white;
 }
 h1 {
-  color: purple;
+  text-align: center;
+  font-family: Copperplate;
   font-size: 24px;
-  font-weight: normal;
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-  text-align: left;
-  display: block;
+  text-decoration: underline;
+  font-weight: bold;
 }

@@ -32,6 +32,7 @@ h1 {
   font-size: 24px;
   text-decoration: underline;
   font-weight: normal;
+  color: steelblue;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 ol li {
@@ -46,6 +47,8 @@ h2 {
   font-size: 24px;
   text-decoration: underline;
   font-weight: bold;
+  color: steelblue;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 p {
   text-align: left;

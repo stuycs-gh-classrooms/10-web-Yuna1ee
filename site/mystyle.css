@@ -14,13 +14,15 @@ nav {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+ul {
+  text-align: center;
+}
 li {
-  padding: 0;
+  padding: 10px;
   text-align: center;
   display: inline;
 }
 a {
-  padding: 10px;
   color: white;
 }
 h1 {

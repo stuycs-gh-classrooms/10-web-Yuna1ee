@@ -39,6 +39,9 @@ h1 {
 ol li {
   display: block;
 }
+ul li {
+  display: block;
+}
 h2 {
   text-align: center;
   font-size: 24px
@@ -63,6 +66,6 @@ img {
 }
 .larpimg {
   width: 100%;
-  text-align: center;
+  justify-content: center;
   display: block;
 }

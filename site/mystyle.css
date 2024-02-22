@@ -63,13 +63,13 @@ img {
   width: 25%;
 }
 .larp2 {
-  width: 50%
-}
-.larp3 {
   float: right;
   width: 25%
 }
+.larp3 {
+  width: 50%
+}
 .larpimg {
-  width: 20%;
+  width: 50%;
   display: block;
 }

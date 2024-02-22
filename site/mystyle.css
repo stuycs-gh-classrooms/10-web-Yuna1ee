@@ -69,3 +69,7 @@ img {
   float: right;
   width: 25%
 }
+.larpimg {
+  width: 20%;
+  display: inline;
+}

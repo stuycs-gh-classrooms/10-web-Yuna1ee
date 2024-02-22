@@ -8,7 +8,7 @@ html {
   border-top-right-radius: inherit;
   display: block;
 }
-li {
+li.pages {
   display: inline;
 }
 li a {
@@ -17,7 +17,7 @@ li a {
   font-size: 16px;
   font-weight: normal;
   font-family: Papyrus, fantasy;
-  border: solid mediumpurple;
+  border: 0px solid mediumpurple;
   background-color: purple;
 }
 .body {

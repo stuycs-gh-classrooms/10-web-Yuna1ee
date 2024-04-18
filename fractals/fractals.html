@@ -63,13 +63,51 @@
     <h3>Random Turtle Width Sierpinski</h3>
     <p>Sierpinski with random turtle widths per depth 1 and pen color is purple: <code>draw_sierpinski(t, 3, 100)</code></p>
     <img src="widthsierpinski.png">
-    <p><code>stuff</code></p>
+    <p><code>def sierpinski(t, depth, size, scale_factor=1):
+    t.pencolor('purple')
+    if depth == 1:
+        t.width(random.randrange (1, 5))
+        triangle(t, size)
+    else:
+        sierpinski(t, depth-1, size/2)
+        t.fd(size/2)
+        sierpinski(t, depth-1, size/2)
+        t.bk(size/2)
+        t.lt(60)
+        t.fd(size/2)
+        t.rt(60)
+        sierpinski(t, depth-1, size/2)
+        t.rt(120)
+        t.fd(size/2)
+        t.lt(120)</code></p>
   </div>
   <div class="SquareSierpinski">
   <h3>Sierpinski Square</h3>
   <p>Sierpinski SQUARE!! instead of a triangle and size = 150 <code>koch_curve(t, 3, 150)</code></p>
   <img src="squaresierpinski.png">
-  <p><code>stuff</code></p>
+  <p><code>def square(t, size):
+    n = 0
+    while n < 4:
+        t.fd(size)
+        t.rt(90)
+        n += 1
+
+def sierpinski(t, depth, size, scale_factor=1):
+    t.pencolor('purple')
+    if depth == 1:
+        square(t, size)
+    else:
+        sierpinski(t, depth-1, size/2)
+        t.fd(size/2)
+        sierpinski(t, depth-1, size/2)
+        t.bk(size/2)
+        t.lt(60)
+        t.fd(size/2)
+        t.rt(60)
+        sierpinski(t, depth-1, size/2)
+        t.rt(120)
+        t.fd(size/2)
+        t.lt(120)</code></p>
 </div>
     </div>
     <div class="Tree">

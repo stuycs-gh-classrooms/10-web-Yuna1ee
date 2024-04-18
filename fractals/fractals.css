@@ -3,6 +3,15 @@ html {
   font-family: Helvetica, sans-serif;
   overflow: auto;
 }
+.bodyart {
+  width: 90%;
+  margin: auto;
+  background-color: lightpink;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: deeppink;
+  border-width: 3px;
+}
 h2 {
   text-align: center;
   text-decoration: underline;
@@ -10,6 +19,7 @@ h2 {
   font-size: 20px;
   color: palevioletred;
   padding: 10px;
+  display: block;
 }
 h3 {
   text-align: left;
@@ -24,53 +34,3 @@ p {
   color: palevioletred;
 }
 .Koch {
-  display: inline;
-  width: 100%;
-  height: 70%;
-  padding: 10px;
-}
-.BasicKoch {
-  float: left;
-  width: 33.33%;
-}
-.WidthKoch {
-  width: 33.33%;
-}
-.SizeKoch {
-  float: right;
-  width: 33.33%;
-}
-.Sierpinski {
-  display: inline;
-  width: 100%;
-  height: 70%;
-  padding: 10px;
-}
-.BasicSierpinski {
-  float: left;
-  width: 33.33%;
-}
-.WidthSierpinski {
-  width:33.33%;
-}
-.SquareSierpinski {
-  float: right;
-  width: 33.33%;
-}
-.Tree {
-  display: inline;
-  width: 100%;
-  height: 70%;
-  padding: 10px;
-}
-.BasicTree {
-  float: left;
-  width: 33.33%;
-}
-.AngleTree {
-  width:33.33%;
-}
-.FlowerTree {
-  float: right;
-  width:33.33%;
-}

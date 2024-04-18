@@ -41,11 +41,11 @@ p {
   width: 33.33%;
 }
 .WidthKoch {
-  width:33.33%;
+  width: 33.33%;
 }
 .SizeKoch {
   float: right;
-  width:33.33%;
+  width: 33.33%;
 }
 .Sierpinski {
   display: inline;
@@ -62,7 +62,7 @@ p {
 }
 .SquareSierpinski {
   float: right;
-  width:33.33%;
+  width: 33.33%;
 }
 .Tree {
   display: inline;

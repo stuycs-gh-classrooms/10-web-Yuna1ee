@@ -136,10 +136,34 @@ def sierpinski(t, depth, size, scale_factor=1):
         t.bk(size)</code></p>
   </div>
   <div class="FlowerTree">
-  <h3>Flower Tree</h3>
-  <p>Tree with flowers, branch color = brown, flower color = pink <code>tree(t, 4, 50, 20)</code></p>
+  <h3>Flower</h3>
+  <p>Tree that has become a branch, added flowers!!, branch color = brown, flower color = pink <code>tree(t, 4, 50, 20)</code></p>
   <img src="flowertree.png">
-  <p><code>stuff</code></p>
+  <p><code>def square(t, size):
+    t.pencolor('pink')
+    t.setheading(0)
+    n = 0
+    while n < 4:
+        t.fd(size)
+        t.rt(90)
+        n += 1
+    t.rt(90)
+    t.pencolor('brown')
+    
+def tree(t, depth, size, angle):
+    t.pencolor('brown')
+    if depth == 0:
+        t.fd(size)
+        t.bk(size)
+    else:
+        t.fd(size)
+        t.rt(angle)
+        tree(t, depth-1, size, angle)
+        square(t, size)
+        t.lt(2 * angle)
+        tree(t, depth-1, size, angle)
+        t.rt(angle)
+        t.bk(size)</code></p>
 </div>
     </div>
   </body>

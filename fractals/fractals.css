@@ -42,7 +42,7 @@ p {
   border-width: 3px;
   width: 80%;
   height: 70%;
-  padding: auto;
+  padding: 10px;
   justify-content: center;
 }
 .BasicKoch {
@@ -71,7 +71,7 @@ p {
   margin: auto;
   width: 80%;
   height: 70%;
-  padding: auto;
+  padding: 10px;
 }
 .BasicSierpinski {
   grid-column-start: 1;
@@ -95,7 +95,7 @@ p {
   margin: auto;
   width: 80%;
   height: 70%;
-  padding: auto;
+  padding: 10px;
 }
 .BasicTree {
   grid-column-start: 1;

@@ -5,7 +5,7 @@ html {
 }
 img {
   width: 70%;
-  margins: 5 px;
+  margins: 5px;
 }
 h1 {
   text-align: center;
@@ -34,7 +34,7 @@ p {
 .Koch {
   display: grid;
   overflow: auto;
-  margin: 80%;
+  margin: 15px;
   background-color: lightpink;
   border-radius: 10px;
   border-style: dashed;
@@ -68,7 +68,7 @@ p {
   border-style: dashed;
   border-color: deeppink;
   border-width: 3px;
-  margin: 80%;
+  margin: 15px;
   width: 80%;
   height: 70%;
   padding: 10px;
@@ -92,7 +92,7 @@ p {
   border-style: dashed;
   border-color: deeppink;
   border-width: 3px;
-  margin: 80%;
+  margin: 15px;
   width: 80%;
   height: 70%;
   padding: 10px;

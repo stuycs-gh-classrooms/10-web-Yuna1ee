@@ -1,7 +1,6 @@
 html {
   background-color: mistyrose;
   font-family: Helvetica, sans-serif;
-  letter-spacing: 10px;
   overflow: auto;
 }
 .bodyart {
@@ -20,7 +19,7 @@ h2 {
   padding: 10px;
 }
 h3 {
-  text-align: right;
+  text-align: left;
   font-weight: bold;
   font-size: 16px;
   color: tomato;
@@ -28,7 +27,7 @@ h3 {
 }
 p {
   font-size: 14px;
-  text-align: right;
+  text-align: left;
   color: tomato;
 }
 .Koch {

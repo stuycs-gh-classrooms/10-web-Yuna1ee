@@ -34,7 +34,7 @@ p {
 .Koch {
   display: grid;
   overflow: auto;
-  margin: 15px;
+  margin: auto;
   background-color: lightpink;
   border-radius: 10px;
   border-style: dashed;
@@ -42,7 +42,7 @@ p {
   border-width: 3px;
   width: 80%;
   height: 70%;
-  padding: 10px;
+  padding: auto;
   justify-content: center;
 }
 .BasicKoch {
@@ -68,10 +68,10 @@ p {
   border-style: dashed;
   border-color: deeppink;
   border-width: 3px;
-  margin: 15px;
+  margin: auto;
   width: 80%;
   height: 70%;
-  padding: 10px;
+  padding: auto;
 }
 .BasicSierpinski {
   grid-column-start: 1;
@@ -92,10 +92,10 @@ p {
   border-style: dashed;
   border-color: deeppink;
   border-width: 3px;
-  margin: 15px;
+  margin: auto;
   width: 80%;
   height: 70%;
-  padding: 10px;
+  padding: auto;
 }
 .BasicTree {
   grid-column-start: 1;

@@ -3,14 +3,9 @@ html {
   font-family: Helvetica, sans-serif;
   overflow: auto;
 }
-.bodyart {
-  width: 90%;
-  margin: auto;
-  background-color: lightpink;
-  border-radius: 10px;
-  border-style: dashed;
-  border-color: deeppink;
-  border-width: 3px;
+h1 {
+  text-align: center;
+  margin: 15px;
 }
 h2 {
   text-align: center;
@@ -18,7 +13,6 @@ h2 {
   font-weight: bold;
   font-size: 20px;
   color: palevioletred;
-  padding: 10px;
   display: block;
 }
 h3 {
@@ -34,3 +28,82 @@ p {
   color: palevioletred;
 }
 .Koch {
+  display: grid;
+  margin: 15px;
+  background-color: lightpink;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: deeppink;
+  border-width: 3px;
+  width: 100%;
+  height: 70%;
+  padding: 10px;
+  justify-content: center;
+}
+.BasicKoch {
+  grid-column-start: 1;
+  float: left;
+  width: 33.33%;
+}
+.WidthKoch {
+  grid-column-start: 2;
+  width: 33.33%;
+}
+.SizeKoch {
+  grid-column-start: 3;
+  float: right;
+  width: 33.33%;
+}
+.Sierpinski {
+  justify-content: center;
+  display: grid;
+  background-color: lightpink;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: deeppink;
+  border-width: 3px;
+  margin: 15px;
+  width: 100%;
+  height: 70%;
+  padding: 10px;
+}
+.BasicSierpinski {
+  grid-column-start: 1;
+  float: left;
+  width: 33.33%;
+}
+.WidthSierpinski {
+  grid-column-start: 2;
+  width:33.33%;
+}
+.SquareSierpinski {
+  grid-column-start: 3;
+  float: right;
+  width: 33.33%;
+}
+.Tree {
+  display: grid;
+  background-color: lightpink;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: deeppink;
+  border-width: 3px;
+  margin: 15px;
+  width: 100%;
+  height: 70%;
+  padding: 10px;
+}
+.BasicTree {
+  grid-column-start: 1;
+  float: left;
+  width: 33.33%;
+}
+.AngleTree {
+  grid-column-start: 2;
+  width:33.33%;
+}
+.FlowerTree {
+  grid-column-start: 3;
+  float: right;
+  width:33.33%;
+}

@@ -43,16 +43,13 @@ p {
 .BasicKoch {
   grid-column-start: 1;
   float: left;
-  width: 33.33%;
 }
 .WidthKoch {
   grid-column-start: 2;
-  width: 33.33%;
 }
 .SizeKoch {
   grid-column-start: 3;
   float: right;
-  width: 33.33%;
 }
 .Sierpinski {
   justify-content: center;
@@ -70,16 +67,13 @@ p {
 .BasicSierpinski {
   grid-column-start: 1;
   float: left;
-  width: 33.33%;
 }
 .WidthSierpinski {
   grid-column-start: 2;
-  width:33.33%;
 }
 .SquareSierpinski {
   grid-column-start: 3;
   float: right;
-  width: 33.33%;
 }
 .Tree {
   display: grid;
@@ -96,14 +90,11 @@ p {
 .BasicTree {
   grid-column-start: 1;
   float: left;
-  width: 33.33%;
 }
 .AngleTree {
   grid-column-start: 2;
-  width:33.33%;
 }
 .FlowerTree {
   grid-column-start: 3;
   float: right;
-  width:33.33%;
 }

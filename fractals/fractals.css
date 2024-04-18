@@ -3,6 +3,10 @@ html {
   font-family: Helvetica, sans-serif;
   overflow: auto;
 }
+img {
+  width: 70%;
+  margins: 5 px;
+}
 h1 {
   text-align: center;
   margin: 15px;
@@ -44,13 +48,16 @@ p {
 .BasicKoch {
   grid-column-start: 1;
   float: left;
+  overflow: auto;
 }
 .WidthKoch {
   grid-column-start: 2;
+  overflow: auto;
 }
 .SizeKoch {
   grid-column-start: 3;
   float: right;
+  overflow: auto;
 }
 .Sierpinski {
   justify-content: center;

@@ -9,7 +9,7 @@ img {
 }
 .bodyart {
   width: 80%;
-  margins: 80%;
+  margins: auto;
   padding: auto;
   justify-content:  center;
 }

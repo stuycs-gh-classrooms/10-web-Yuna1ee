@@ -114,18 +114,30 @@ def sierpinski(t, depth, size, scale_factor=1):
       <p><h2>Tree</h2></p>
       <div class="BasicTree">
       <h3>Basic Tree</h3>
-      <p>Tree with no alterations <code>tree(t, 3, 100)</code></p>
+      <p>Tree with no alterations <code>tree(t, 4, 50, 20)</code></p>
       <img src="basictree.png">
     </div>
     <div class="AngleTree">
     <h3>Random Angle Tree</h3>
-    <p>Sierpinski with random angles per iteration and pen color is purple: <code>tree(t, 3, 100)</code></p>
+    <p>Tree with random angles per iteration and pen color is purple: <code>tree(t, 4, 50, angle)</code></p>
     <img src="angletree.png">
-    <p><code>stuff</code></p>
+    <p><code>def tree(t, depth, size, angle):
+    t.pencolor('purple')
+    if depth == 0:
+        t.fd(size)
+        t.bk(size)
+    else:
+        t.fd(size)
+        t.rt(random.randrange(0, 100))
+        tree(t, depth-1, size, angle)
+        t.lt(2 * angle)
+        tree(t, depth-1, size, angle)
+        t.rt(angle)
+        t.bk(size)</code></p>
   </div>
   <div class="FlowerTree">
   <h3>Flower Tree</h3>
-  <p>Basic Tree with flowers, branch color = brown, flower color = pink <code>koch_curve(t, 3, 150)</code></p>
+  <p>Tree with flowers, branch color = brown, flower color = pink <code>tree(t, 4, 50, 20)</code></p>
   <img src="flowertree.png">
   <p><code>stuff</code></p>
 </div>

@@ -3,13 +3,6 @@ html {
   font-family: Helvetica, sans-serif;
   overflow: auto;
 }
-.bodyart {
-  width: 80%;
-  margin: auto;
-  background-color: lightpink;
-  border-radius: 15px;
-  padding: 10px;
-}
 h2 {
   text-align: center;
   text-decoration: underline;
@@ -22,13 +15,13 @@ h3 {
   text-align: left;
   font-weight: bold;
   font-size: 16px;
-  color: tomato;
+  color: palevioletred;
   padding: 5px;
 }
 p {
   font-size: 14px;
   text-align: left;
-  color: tomato;
+  color: palevioletred;
 }
 .Koch {
   display: inline;
